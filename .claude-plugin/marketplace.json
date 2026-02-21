@@ -1,34 +1,34 @@
 {
-  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
-  "name": "systembug-marketplace",
-  "owner": {
-    "name": "Systembug",
-    "email": ""
-  },
-  "metadata": {
-    "version": "0.1.0",
-    "description": "Skill plugin marketplace for Claude Code. Install with /plugin marketplace add and /plugin install."
-  },
-  "plugins": [
-    {
-      "name": "example-skill",
-      "source": "./plugins/example-skill",
-      "description": "示例技能，用于演示市场安装。Use when testing marketplace install.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Systembug"
-      },
-      "category": "development"
+    "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+    "name": "systembug-marketplace",
+    "owner": {
+        "name": "Systembug",
+        "email": ""
     },
-    {
-      "name": "wsx-apply",
-      "source": "./plugins/wsx-apply",
-      "description": "Apply WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when adding wsx-press, wsx-theme, wsx-branding, base components, router, or full WSX app setup.",
-      "version": "1.0.0",
-      "author": {
-        "name": "Systembug"
-      },
-      "category": "development"
-    }
-  ]
+    "metadata": {
+        "version": "0.1.0",
+        "description": "Skill plugin marketplace for Claude Code. Install with /plugin marketplace add and /plugin install."
+    },
+    "plugins": [
+        {
+            "name": "wsx-apply",
+            "source": "./plugins/wsx-apply",
+            "description": "Apply WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when adding wsx-press, wsx-theme, wsx-branding, base components, router, or full WSX app setup.",
+            "version": "1.0.0",
+            "author": {
+                "name": "Systembug"
+            },
+            "category": "development"
+        },
+        {
+            "name": "design-system",
+            "source": "./plugins/design-system",
+            "description": "CSS Design System Architect: BEM, ITCSS, fluid typography, defensive CSS, and modern focus/A11y. Use when writing, reviewing, or refactoring scalable CSS, component libraries, or core UI.",
+            "version": "1.0.0",
+            "author": {
+                "name": "Systembug"
+            },
+            "category": "development"
+        }
+    ]
 }

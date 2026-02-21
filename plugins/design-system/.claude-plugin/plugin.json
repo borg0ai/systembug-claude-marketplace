@@ -1,0 +1,5 @@
+{
+    "name": "design-system",
+    "description": "CSS Design System Architect: BEM, ITCSS, fluid typography, defensive CSS, and modern focus/A11y. Use when writing, reviewing, or refactoring scalable CSS, component libraries, or core UI.",
+    "version": "1.0.0"
+}
