@@ -1,5 +1,5 @@
 {
     "name": "wsx-apply",
-    "description": "示例技能，用于演示从本市场安装。Use when testing marketplace install.",
+    "description": "Apply WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when adding wsx-press, wsx-theme, wsx-branding, base components, router, or full WSX app setup.",
     "version": "1.0.0"
 }

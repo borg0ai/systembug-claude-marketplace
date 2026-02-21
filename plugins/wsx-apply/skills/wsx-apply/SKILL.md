@@ -1,6 +1,6 @@
 ---
 name: wsx-apply
-description: "Apply WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when: add wsx-press, wsx-theme, wsx-branding, base components, router, or setup full WSX app."
+description: "Applies WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when the user asks to add wsx-press, wsx-theme, wsx-branding, base UI components, wsx-router, or to set up a full WSX/WSXJS app."
 ---
 
 # WSX Apply Skill

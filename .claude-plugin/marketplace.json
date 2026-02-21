@@ -19,6 +19,16 @@
         "name": "Systembug"
       },
       "category": "development"
+    },
+    {
+      "name": "wsx-apply",
+      "source": "./plugins/wsx-apply",
+      "description": "Apply WSXJS skills (press, theme, components, site) via @wsxjs/wsx-ai. Use when adding wsx-press, wsx-theme, wsx-branding, base components, router, or full WSX app setup.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Systembug"
+      },
+      "category": "development"
     }
   ]
 }
