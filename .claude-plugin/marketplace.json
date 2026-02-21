@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "systembug-marketplace",
+  "owner": {
+    "name": "Systembug",
+    "email": ""
+  },
+  "metadata": {
+    "version": "0.1.0",
+    "description": "Skill plugin marketplace for Claude Code. Install with /plugin marketplace add and /plugin install."
+  },
+  "plugins": [
+    {
+      "name": "example-skill",
+      "source": "./plugins/example-skill",
+      "description": "示例技能，用于演示市场安装。Use when testing marketplace install.",
+      "version": "1.0.0",
+      "author": {
+        "name": "Systembug"
+      },
+      "category": "development"
+    }
+  ]
+}

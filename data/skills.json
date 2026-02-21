@@ -1,0 +1,12 @@
+{
+  "skills": [
+    {
+      "id": "example-skill",
+      "name": "示例技能",
+      "description": "用于演示市场安装流程的示例技能。Use when testing the marketplace install.",
+      "source": "file",
+      "sourceUrl": "",
+      "installPath": "data/example-skill"
+    }
+  ]
+}

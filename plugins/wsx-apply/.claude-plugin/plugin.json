@@ -1,0 +1,5 @@
+{
+    "name": "wsx-apply",
+    "description": "示例技能，用于演示从本市场安装。Use when testing marketplace install.",
+    "version": "1.0.0"
+}
